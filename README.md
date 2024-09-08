@@ -34,6 +34,6 @@ Original kexec for ps3 can't handle elf that have loadable segment more than one
       GNU_STACK      0x0000000000000000 0x0000000000000000 0x0000000000000000
                      0x0000000000000000 0x0000000000000000  RW     0x8
 
-By simply merge those segment into one it is now possible to load such elf.
+By simply merge those segment into one at load time it is now possible to load such elf.
 
 One of iso that affected is FreeBSD-12.2-RELEASE and FreeBSD-12.4-RELEASE.
